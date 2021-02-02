@@ -1,0 +1,179 @@
+body {
+		background: url('media/green.png');
+		margin: 0;
+		}
+
+	nav  {
+		background-color: none;
+		width: 100%;
+		height: 80px;
+		position: relative;
+		top: 0%;
+		left: 0%;
+		border-bottom: 2px solid black;
+		}
+
+	nav li {
+		display: inline-block;
+		float: left;
+		padding: 10px;
+		margin: 16px;
+		}
+
+	nav a {
+		text-decoration: none;
+		list-style-type: none;
+		color: black;
+		font-size: 17px;
+		font-weight: bold;
+		font-family: 'Quicksand', sans-serif;
+		}
+
+	nav a:hover {
+		background-color: black;
+		color: white;
+		transition: 0.3s;
+		}
+
+	.contenedor-logo {
+		}
+
+	.logo {
+		display: inline-block;
+		float: right;
+		padding: 15px;
+		margin: 6px;
+		font-weight: bold;
+		font-size: 24px;	
+		}
+
+	.footer {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: #B3B3B3;
+		position: fixed;
+		bottom: 0;
+		}
+
+	.copyright {
+		text-align: center;
+		background-color: #717070;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-weight: lighter;
+		letter-spacing: 2px;
+		font-family: "Source Sans Pro";
+		}
+
+	.mapa {
+		border-radius: 10px;
+		width: 100%;
+		height: 600px;
+		}
+
+	.contacto {
+		padding: 100px;
+	}
+
+	.mensaje {
+		width: 250px;
+		height: 150px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		border-radius: 10px;
+		border: 0;
+		border: 1px solid black;
+		}
+
+	.email {
+		width: 250px;
+		height: 24px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		border-radius: 10px;
+		border: 0;
+		border: 1px solid black;
+		}
+
+	.nombre {
+		width: 250px;
+		height: 24px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		border-radius: 10px;
+		border: 1px solid black;
+		}
+
+	.numero {
+		width: 250px;
+		height: 24px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		border-radius: 10px;
+		border: 0;
+		border: 1px solid black;
+		}
+
+
+	.titulos {
+		text-align: center;
+		font-family: 'Alegreya', serif;
+		font-weight: bold;
+		text-decoration: underline;
+		font-size: 22px;
+		}
+
+	p {
+		font-family: 'Alegreya', serif;
+		font-weight: bold;
+		}
+
+	.conjunto-contacto {
+		display: flex;
+		justify-content: space-around;
+		}
+
+	@media only screen and (max-width: 500px) {
+
+		.conjunto-contacto {
+			display: block;
+			margin: 0 auto;
+		}
+
+		p {
+			margin: 0 auto;
+			text-align: center;
+		}
+
+		.titulos {
+			margin: 0 auto;
+		}
+
+		.mapa {
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+		}
+
+		.conjunto {
+			margin: 0 auto;
+			display: flex;
+			justify-content: center;
+		}
+
+		nav a {
+			font-size: 10px;
+		}
+
+		#mapa {
+
+		}
+	}

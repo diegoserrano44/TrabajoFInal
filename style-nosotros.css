@@ -1,0 +1,136 @@
+body {
+		background: url('media/green.png');
+		margin: 0;
+		}
+
+	nav  {
+		background-color: none;
+		width: 100%;
+		height: 80px;
+		position: relative;
+		top: 0%;
+		left: 0%;
+		border-bottom: 2px solid black;
+		}
+
+	nav li {
+		display: inline-block;
+		float: left;
+		padding: 10px;
+		margin: 16px;
+		}
+
+	nav a {
+		text-decoration: none;
+		list-style-type: none;
+		color: black;
+		font-size: 17px;
+		font-family: 'Quicksand', serif;
+		font-weight: bold;
+		}
+
+	nav a:hover {
+		background-color: black;
+		color: white;
+		transition: 0.3s;
+		}
+
+	.contenedor-logo {
+		}
+
+	.logo {
+		display: inline-block;
+		float: right;
+		padding: 15px;
+		margin: 6px;
+		font-weight: bold;
+		font-size: 24px;	
+		}
+
+	.footer {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: #B3B3B3;
+		position: fixed;
+		bottom: 0;
+		}
+	
+	.copyright {
+		text-align: center;
+		background-color: #717070;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-weight: lighter;
+		letter-spacing: 2px;
+		font-family: "Source Sans Pro";
+		}
+
+	.titulo-quienes-somos {
+		color: black;
+		font-size: 45px;
+		margin: 0 auto;
+		text-align: center;
+		font-family: 'Alegreya', serif;
+		font-weight: bold;
+		animation-name: text;
+		animation-duration: 4s;
+		}
+
+	@keyframes text {
+		0% {opacity: 0%;}
+		100%{opacity: 100%}
+
+	}
+
+	.contenido-quienes-somos {
+		color: black;
+		font-size: 22px;
+		width: 90%;
+		height: auto;
+		margin: 0 auto;
+		font-family: 'Alegreya', serif;
+		text-align: center;
+		}
+
+	.lista-imagenes {
+		list-style-type: none;
+		display: flex;
+		justify-content: space-around;
+		animation-name: text;
+		animation-duration: 4s;	
+		}
+
+	.lista1 {
+		margin: 0 auto;
+		height: 500px;
+		text-align: center;
+		width: 50%;
+		font-family: 'Alegreya', serif;
+		font-size: 19px;
+		}
+
+	@keyframes text {
+		0% {opacity: 0%;}
+		100%{opacity: 100%}
+		}
+
+		@media only screen and (max-width: 500px) {
+
+			nav a {
+				font-size: 11px;
+			}
+
+			.titulo-quienes-somos {
+				font-size: 26px;
+			}
+
+			a {
+				font-size: 11px;
+			}
+
+			li {
+				
+			}	
+
+		}

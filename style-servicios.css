@@ -1,0 +1,175 @@
+body {
+		background-image: url('media/green.png');
+		margin: 0;
+		}
+
+	nav  {
+		background-color: none;
+		width: 100%;
+		height: 80px;
+		position: relative;
+		top: 0%;
+		left: 0%;
+		border-bottom: 2px solid black;
+		}
+
+	nav li {
+		display: inline-block;
+		float: left;
+		padding: 10px;
+		margin: 16px;
+		}
+
+	nav a {
+		text-decoration: none;
+		list-style-type: none;
+		color: black;
+		font-size: 17px;
+		font-weight: bold;
+		font-family: 'Quicksand', sans-serif;
+		}
+
+	nav a:hover {
+		background-color: black;
+		color: white;
+		transition: 0.3s;
+		}		
+
+	.contenedor-logo {
+		}
+
+	.logo {
+		#border: 1px solid red;
+		display: inline-block;
+		float: right;
+		padding: 15px;
+		margin: 6px;
+		font-weight: bold;
+		font-size: 24px;	
+		}
+
+	.titulo-parrafos {
+		margin: 0 auto;
+		font-size: 34px;
+		color: black;
+		background-color: #E7E3D5;
+		opacity: 0.9;
+		text-align: center;
+		font-family: 'Alegreya', serif;
+		font-weight: bold;
+		}
+
+	.parrafo1 {
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		width: 90%;
+		height: 250px;
+		margin: 0 auto;
+		text-align: center;
+		font-family: 'Alegreya', serif;
+		display: none;
+		}
+
+	.parrafo2 {
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		width: 90%;
+		height: 250px;
+		margin: 0 auto;
+		text-align: center;
+		font-family: 'Alegreya', serif;
+		display: none;
+		}
+
+	.parrafo3 {
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		width: 90%;
+		height: 250px;
+		margin: 0 auto;
+		text-align: center;
+		font-family: 'Alegreya', serif;
+		display: none;
+		}
+
+	.botonplus1 {
+		color: black;
+		display: block;
+		width: 100%;
+		font-weight: bold;
+		background-color: #E7E3D5;
+		border: 0;
+		}
+
+	.botonplus2 {
+		color: black;
+		display: block;
+		width: 100%;
+		font-weight: bold;
+		background-color: #E7E3D5;
+		border: 0;
+		}
+
+	.botonplus3 {
+		color: black;
+		display: block;
+		width: 100%;
+		font-weight: bold;
+		background-color: #E7E3D5;
+		border: 0;
+		}
+
+	.conjunto {
+		margin: 30px;
+		}
+
+	.footer {
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background-color: #B3B3B3;
+		z-index: 1000;
+		}
+	
+	.copyright {
+		text-align: center;
+		background-color: #717070;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		font-weight: lighter;
+		letter-spacing: 2px;
+		font-family: "Source Sans Pro";
+		}
+
+	@media only screen and (max-width: 600px) {
+
+		.titulo-parrafos {
+			font-size: 28px;
+		}
+
+		.parrafo1 {
+			font-size: 16px;
+		}
+
+		.parrafo2 {
+			font-size: 16px;
+		}
+
+		.parrafo3 {
+			font-size: 16px;
+		}
+
+		.logo {
+			font-size: 14px;
+		}
+
+		nav a {
+			font-size: 12px
+		}
+
+	}
